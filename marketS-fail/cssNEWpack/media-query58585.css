@@ -1,0 +1,180 @@
+@media (max-width: 1199px) {
+
+    .main-title {
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .prod-title-list {
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .prod-title {
+        font-size: 20px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+    .prod-param, .prod-descrip {
+        font-size: 16px;
+    }
+    .ogrn-title {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .address-title, .mail-title, .phone-title {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .address, .mail, .phone {
+        margin-bottom: 18px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hr-bar {
+        flex-direction: column;
+    }
+    .hr-main {
+        flex-direction: column;
+    }
+    .form {
+        width: 700px;
+    }
+    .spesial-link {
+        gap: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .spesial-link a {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 767px) {
+    .hr-main-title {
+        width: 100%;
+    }
+    .prod-wrap {
+        flex-direction: column !important;
+    }
+    .logo-site {
+        flex-direction: row !important;
+        margin-bottom: 20px;
+    }
+    .hr-bar {
+        flex-direction: column !important;
+    }
+    .hr-main {
+        padding-top: 70px;
+        padding-bottom: 80px;
+        gap: 15px;
+    }
+    .main-title {
+        font-size: 28px;
+    }
+    .prod-block {
+        padding-top: 15px;
+        padding-bottom: 60px;
+    }
+    .prod-title-list {
+        font-size: 28px;
+    }
+    .form {
+        width: 530px;
+    }
+    .prod-list {
+        flex-direction: column;
+    }
+    .prod-card {
+        width: 100%;
+    }
+    .footer {
+        padding-top: 160px;
+    }
+    .contact-block {
+        gap: 0px;
+    }
+    .ogrn-title {
+        font-size: 20px;
+    }
+    .address-title, .mail-title, .phone-title {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .address, .mail, .phone {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .contacts-page {
+        flex-direction: column;
+    }
+    .contacts-page-map, .contacts-page-contacts-list {
+        width: 100%;
+    }
+    .pay-delivery-title, .contacts-title  {
+        font-weight: 400;
+        font-size: 42;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .pay-delivery-text {
+        padding: 60px 0;
+    }
+    .contact-block {
+        flex-direction: column !important;
+    }
+    .hr-main {
+        flex-direction: column !important;
+    }
+}
+
+@media(max-width: 576px) {
+    .contacts {
+        width: 100% !important;
+    }
+    .contact-img {
+        display: none;
+    }
+    .prod-card {
+        width: 100% !important;
+    }
+    .spesial-link  {
+        gap: 20px !important;
+        flex-direction: column !important;
+    }
+    .prod-list {
+        flex-direction: column !important;
+    }
+    .hr-main {
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+    .hr-main-title {
+        width: 100%;
+    }
+    .prod-block {
+        padding-top: 0;
+    }
+    .prod-title-list {
+        margin-bottom: 50px;
+    }
+    .prod-wrap {
+        padding-bottom: 15px;
+    }
+    .form {
+        width: 350px;
+    }
+    .contact-block {
+        flex-direction: column;
+    }
+    .pic {
+        position: inherit;
+    }
+    .contacts {
+        padding: 0 0 20px;
+        width: 100%;
+    }
+  
+}
+
